@@ -20,13 +20,13 @@ class C extends B{
 
 	int c = 60;
 	void pritn(){
-		System.out.println(c)
+		System.out.println(c);
 		
 		
 	}
 }
 
-public class Inheritance {
+public class Inheritanse {
 
 	public static void main(String[] args) {
 		
