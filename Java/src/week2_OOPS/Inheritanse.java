@@ -16,14 +16,25 @@ class  B extends A {
 	}	
 }
 
-public class Inheritense {
+class C extends B{
+
+	int c = 60;
+	void pritn(){
+		System.out.println(c)
+		
+		
+	}
+}
+
+public class Inheritance {
 
 	public static void main(String[] args) {
 		
-		B obj = new B();
+		C obj = new C();
 		
 		obj.display();
 		obj.show();
+		obj.pritn();
 		
 		
 	}
